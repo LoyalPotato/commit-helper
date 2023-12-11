@@ -1,6 +1,9 @@
 # Commit Msg Helper
 
-CLI tool to help you write consistent commits
+CLI tool to help you write consistent commits.
+
+It will create a message like:
+> [FEATURE][TICKET] Description
 
 ## Setup
 
