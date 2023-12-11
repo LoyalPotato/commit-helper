@@ -31,14 +31,14 @@ jobs:
           args: release --clean
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Upload assets
-        uses: actions/upload-artifact@v3
-        with:
-          name: sg
-          path: dist/*
-      - name: Download Artifacts
-        uses: actions/download-artifact@v3
-        with:
-          name: sg
-      - name: Display structure of downloaded files
-        run: ls -R
+      # - name: Upload assets
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: sg
+      #     path: dist/*
+      # - name: Download Artifacts
+      #   uses: actions/download-artifact@v3
+      #   with:
+      #     name: sg
+      # - name: Display structure of downloaded files
+      #   run: ls -R
