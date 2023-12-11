@@ -8,7 +8,7 @@ You can install by download the binary in the release or manually installing it 
 
 ### Release
 
-Go to [releases](https://gitlab.eposnow.io/david.ribeiro/commit-msg-helper/-/releases) and download the latest binary according to your platform. If it's not there, follow the manual installation below.
+Go to [releases](https://github.com/LoyalPotato/commit-helper/releases) and download the latest binary according to your platform. If it's not there, follow the manual installation below.
 
 Then be sure to put it somewhere where that's defined in your `$PATH` and rename it to `ch` so that everything works properly.
 
@@ -27,6 +27,7 @@ You can find out where it is by printing or checking the env variable `$GOPATH`.
 ## Recommended Flow
 
 The recommended flow from setup to working is:
+
 1. Run `go install` in the root of the repository or move the correct binary into a folder that's present on your `$PATH`
 2. After install, setup a git alias to run the command through git with `ch aliases`. This will allow you to run `ch` with `git ch`
 3. Lastly, run the command each time you need to commit `git ch`. The steps done for these command are documented above
